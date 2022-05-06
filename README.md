@@ -8,6 +8,9 @@ Tested on Aorus 15P KD-72US223SH laptop, Windows 10, Python v3.10
 * [pyusb](https://github.com/pyusb/pyusb) with libusb backend
   * If you face problems with libusb installation, this answer might help https://stackoverflow.com/questions/33972145/pyusb-on-windows-8-1-no-backend-available-how-to-install-libusb
 
+## Note for the audio sync script
+If you would like the script to react to music playing on your machine, use a loopback device to direct output to an input device. You can use [Stereo Mix](https://superuser.com/questions/753061/what-is-stereo-mix-supposed-to-be-used-for-in-windows) (which failed to work reliably for me) or use third-party software like [Voicemeeter](https://vb-audio.com/Voicemeeter/index.htm) on Windows.
+
 ## Current features:
 * Set color and brightness for the static full keyboard mode
 * Set different modes like Wave, Ripple, Raindrop, Fade on press etc.
